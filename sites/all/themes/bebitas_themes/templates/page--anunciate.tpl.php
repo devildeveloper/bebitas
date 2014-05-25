@@ -15,14 +15,15 @@
     </div>
     <div class="container">
         <div class="navbar">
-            <div class="navbar-inner">                        
+            <div class="navbar-inner">
                 <div class="container">
-                    <div class="buttons-container">
-                    </div>
+                    <div class="buttons-container"></div>
                     <div class="nav-collapse">
                         <ul class="nav nav-pills">
-                            <li class="single"><a href="<?php print $front_page ;?>">HOME<i>bebitas.com.pe</i></a></li>
-                            <li class="active single"><a href="?q=content/anunciate-0">Anunciate<i>Aumenta tus Ingresos</i></a></li>                        </ul>
+                            <li class="active single"><a href="<?php print $front_page ;?>">HOME<i>bebitas.com.pe</i></a></li>
+                            <li class="single"><a href="/content/anunciate">Anunciate<i>Aumenta tus Ingresos</i></a></li>
+                            <li class="single"><a href="#">Contactanos<i>Envianos un correo</i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
