@@ -1,0 +1,46 @@
+
+name = bebitas_theme
+description = Tema para bebitas.
+version = 0.1
+core = 7.x
+
+stylesheets[all][] = rs-plugin/css/settings.css
+stylesheets[all][] = css/rs-responsive.css
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/isotope.css
+stylesheets[all][] = css/color.css
+stylesheets[all][] = css/font-awesome.css
+stylesheets[all][] = css/font-awesome-ie7.css
+stylesheets[all][] = css/flexslider.css
+stylesheets[all][] = css/jquery.fancybox.css
+
+scripts[] = js/jquery-1.7.2.min.js
+scripts[] = js/bootstrap.js
+scripts[] = js/jquery.flexslider-min.js
+scripts[] = js/jquery.isotope.js
+scripts[] = js/jquery.fancybox.pack.js
+scripts[] = rs-plugin/js/jquery.themepunch.plugins.min.js
+scripts[] = rs-plugin/js/jquery.themepunch.revolution.min.js
+scripts[] = js/revolution.custom.js
+scripts[] = js/custom.js
+
+regions[admin] = Administrador
+regions[sliderTop] = Slider Top
+regions[recien_llegadas] = recien llegadas
+regions[perfiles_todas] = todas las chicas
+regions[content] = Content
+regions[footer] = Footer
+regions[bottom] = Bottom
+
+
+
+regions[highlighted] =Highlighted
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon

@@ -1,0 +1,1 @@
+<img src="<?php print <?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/404.jpg' ;?>" alt="">

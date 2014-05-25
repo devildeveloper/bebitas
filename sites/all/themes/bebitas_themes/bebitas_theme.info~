@@ -1,0 +1,44 @@
+
+name = bebitas_theme
+description = Tema para bebitas.
+version = 0.1
+core = 7.x
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colorbox.css
+stylesheets[print][] = css/flexslider.css
+
+scripts[] = js/jquery.full.js
+scripts[] = js/jquery.carouFredSel-6.1.0-packed.js
+scripts[] = js/jquery.touchSwipe.min.js
+scripts[] = js/main.js
+scripts[] = js/jquery.sticky.js
+scripts[] = js/jquery.parallax-1.1.3.js
+scripts[] = js/jquery.localscroll-1.2.7-min.js
+scripts[] = js/jquery.scrollTo-1.4.2-min.js
+scripts[] = js/jquery.cycle.all.js
+scripts[] = js/jquery.maximage.js
+scripts[] = js/jquery.colorbox.js
+scripts[] = js/isotope.js
+scripts[] = js/jquery.flexslider.js
+scripts[] = js/jquery.jigowatt.js
+
+regions['admin'] = Administrador
+regions['sliderTop'] = Slider Top
+regions['recien_llegadas'] = recien llegadas
+regions['perfiles_todas'] = todas las chicas
+regions['content'] = Content
+regions['footer'] = Footer
+regions['bottom'] = Bottom
+
+
+
+regions['highlighted'] =Highlighted
+regions['sidebar_first'] = Sidebar First
+regions['sidebar_second'] = Sidebar Second
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
